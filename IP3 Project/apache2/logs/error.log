@@ -1,0 +1,26 @@
+[Mon Apr 12 09:32:39.486258 2021] [mpm_winnt:notice] [pid 29764:tid 676] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Mon Apr 12 09:32:39.487266 2021] [mpm_winnt:notice] [pid 29764:tid 676] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Mon Apr 12 09:32:39.487266 2021] [core:notice] [pid 29764:tid 676] AH00094: Command line: 'D:\\IP3 Project/apache2/bin/httpd_usbwv8.exe -d D:/IP3 Project/apache2'
+[Mon Apr 12 09:32:39.513612 2021] [mpm_winnt:notice] [pid 29764:tid 676] AH00418: Parent: Created child process 30852
+[Mon Apr 12 09:32:45.279781 2021] [mpm_winnt:notice] [pid 30852:tid 780] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 12 11:01:32.622644 2021] [:error] [pid 30852:tid 1288] [client ::1:57084] PHP Notice:  Undefined index: type in D:\\IP3 Project\\root\\promote.php on line 58, referer: http://localhost:8080/home.php
+[Mon Apr 12 11:07:38.736783 2021] [:error] [pid 30852:tid 1288] [client ::1:57540] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in D:\\IP3 Project\\root\\promote.php on line 56, referer: http://localhost:8080/home.php
+[Mon Apr 12 11:17:50.402950 2021] [:error] [pid 30852:tid 1288] [client ::1:57715] PHP Notice:  Undefined variable: result in D:\\IP3 Project\\root\\promote.php on line 56, referer: http://localhost:8080/home.php
+[Mon Apr 12 11:17:50.402950 2021] [:error] [pid 30852:tid 1288] [client ::1:57715] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in D:\\IP3 Project\\root\\promote.php on line 56, referer: http://localhost:8080/home.php
+[Mon Apr 12 11:27:54.377618 2021] [:error] [pid 30852:tid 1288] [client ::1:57955] script 'D:/IP3 Project/root/update.php' not found or unable to stat, referer: http://localhost:8080/promote.php
+[Mon Apr 12 11:40:32.229701 2021] [:error] [pid 30852:tid 1288] [client ::1:58106] PHP Notice:  Undefined index: member in D:\\IP3 Project\\root\\update.php on line 42, referer: http://localhost:8080/promote.php
+[Mon Apr 12 11:43:22.411192 2021] [:error] [pid 30852:tid 1288] [client ::1:58149] PHP Notice:  Undefined index: member in D:\\IP3 Project\\root\\update.php on line 42, referer: http://localhost:8080/promote.php
+[Mon Apr 12 11:45:55.371722 2021] [:error] [pid 30852:tid 1288] [client ::1:58254] PHP Notice:  Undefined index: member in D:\\IP3 Project\\root\\update.php on line 42, referer: http://localhost:8080/promote.php
+[Mon Apr 12 11:46:38.324739 2021] [:error] [pid 30852:tid 1288] [client ::1:58255] PHP Notice:  Undefined index: member in D:\\IP3 Project\\root\\update.php on line 42, referer: http://localhost:8080/promote.php
+[Mon Apr 12 11:55:36.092239 2021] [:error] [pid 30852:tid 1288] [client ::1:58532] script 'D:/IP3 Project/root/meetup.php' not found or unable to stat, referer: http://localhost:8080/home.php
+[Mon Apr 12 13:08:56.966790 2021] [:error] [pid 30852:tid 1288] [client ::1:60398] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in D:\\IP3 Project\\root\\events.php on line 103, referer: http://localhost:8080/home.php
+[Mon Apr 12 13:09:26.756054 2021] [:error] [pid 30852:tid 1288] [client ::1:60399] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in D:\\IP3 Project\\root\\events.php on line 103, referer: http://localhost:8080/home.php
+[Mon Apr 12 13:39:16.008729 2021] [:error] [pid 30852:tid 1288] [client ::1:61355] PHP Parse error:  syntax error, unexpected '<' in D:\\IP3 Project\\root\\home.php on line 240, referer: http://localhost:8080/rules.php
+[Mon Apr 12 13:39:17.303367 2021] [:error] [pid 30852:tid 1288] [client ::1:61355] PHP Parse error:  syntax error, unexpected '<' in D:\\IP3 Project\\root\\home.php on line 240, referer: http://localhost:8080/rules.php
+[Mon Apr 12 14:04:09.222402 2021] [:error] [pid 30852:tid 1296] [client ::1:62188] script 'D:/IP3 Project/root/meetup.php' not found or unable to stat, referer: http://localhost:8080/promote.php
+[Mon Apr 12 14:04:40.653845 2021] [:error] [pid 30852:tid 1296] [client ::1:62212] PHP Notice:  Undefined variable: POST in D:\\IP3 Project\\root\\update.php on line 44, referer: http://localhost:8080/promote.php
+[Mon Apr 12 14:05:31.707208 2021] [:error] [pid 30852:tid 1296] [client ::1:62246] script 'D:/IP3 Project/root/meetup.php' not found or unable to stat, referer: http://localhost:8080/update.php
+[Mon Apr 12 14:05:36.070050 2021] [:error] [pid 30852:tid 1296] [client ::1:62246] script 'D:/IP3 Project/root/faq.php' not found or unable to stat, referer: http://localhost:8080/update.php
+[Mon Apr 12 14:07:35.231007 2021] [:error] [pid 30852:tid 1296] [client ::1:62311] script 'D:/IP3 Project/root/meetup.php' not found or unable to stat, referer: http://localhost:8080/update.php
+[Mon Apr 12 14:07:58.458182 2021] [:error] [pid 30852:tid 1288] [client ::1:62332] script 'D:/IP3 Project/root/meetup.php' not found or unable to stat, referer: http://localhost:8080/update.php
+[Mon Apr 12 14:07:58.458182 2021] [:error] [pid 30852:tid 1296] [client ::1:62312] script 'D:/IP3 Project/root/meetup.php' not found or unable to stat, referer: http://localhost:8080/update.php

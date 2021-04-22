@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<title>Registration</title>
+
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+
+</head>
+
+<body>
+
+<ul class="topnav">
+		<li><img src="images/caleChargers.jpg" alt="chargers logo" style="width:55px;height:55px;"></li>
+		<li><a href="home.php">Home</a></li>
+		<li><a href="rules.php">Rules</a></li>
+		<li><a href="meetup.php">Meetups</a></li>
+		<li><a href="events.php">Events</a></li>
+		<li><a href="faq.php">FAQ</a></li>
+		<li><a href="contact.php">Contact Us</a></li>
+		<li><a href="login.html">Log In</a></li>
+</ul>
+
+
+ 
+ 
+</br> </br> </br>
+<h1>Registration</h2>
+<form name="registration" action="Registration.php" method="post">
+
+<table>
+
+<tr><td>First name</td><td><input type="text" name="forename" required maxlength=20></td></tr>
+<tr><td>Surname</td><td><input type="text" name="surname" required maxlength=20></td></tr>
+<tr><td>Age</td><td><input type="number" name="age" required min=18 max=100></td></tr>
+<tr><td>Email</td><td><input type="email" name="email" required maxlength=100></td></tr>
+<tr><td>Password</td><td><input type="password" name="password" required maxlength=100></td></tr>
+<input type="number" value=1 name="type" hidden>
+
+</table>
+<br>
+<p><input type="submit" value="Click to register your details" name="submit"></p>
+</form>
+
+</p>
+
+</body>
+
+</html>
