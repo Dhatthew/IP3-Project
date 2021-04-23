@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-header("Location: events.php");
+header("Location: competitons.php");
 
 $servername="localhost"; 									
 $username="root";        									

@@ -19,8 +19,15 @@
             <li><img src="images/caleChargers.jpg" alt="My Image" style="width:75px;height:80px;"></li>
 			<li><a href="home.php">Home</a></li>
 			<li><a href="rules.php">Rules</a></li>
-            <li><a href="events.php">Events</a></li>
+            <li><a href="#">Events</a>
+            <ul>
+                <li><a href="competitions.php">Competitions</a></li>
+                <li><a href="meetups.php">Meetups</a></li>
+                
+            </ul>        
+            </li>
             <li><a href="roster.php">Roster</a></li>
+			<li><a href="merch.php">Merch</a></li>
             <li><a class="active" href="contact.php">Contact Us</a></li>
             <li><a href="about.php">About</a></li>
 			

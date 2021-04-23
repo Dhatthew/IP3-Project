@@ -211,8 +211,15 @@ body {
             <li><img src="images/caleChargers.jpg" alt="My Image" style="width:75px;height:80px;"></li>
 			<li><a class="active" href="home.php">Home</a></li>
 			<li><a href="rules.php">Rules</a></li>
-            <li><a href="events.php">Events</a></li>
+            <li><a href="#">Events</a>
+            <ul>
+                <li><a href="competitions.php">Competitions</a></li>
+                <li><a href="meetups.php">Meetups</a></li>
+                
+            </ul>        
+            </li>
             <li><a href="roster.php">Roster</a></li>
+			<li><a href="merch.php">Merch</a></li>
             <li><a href="contact.php">Contact Us</a></li>
             <li><a href="about.php">About</a></li>
 			
@@ -313,24 +320,6 @@ src="https://www.youtube.com/embed/nUZYpDFggCI">
 
 <p></p>
 
-
-		
-<?php
-	if(isset($_COOKIE['type'])){ 
-		
-		if (isset($_COOKIE['type']) && $_COOKIE['type']== 1) {	
-		?><p>As a member of our society we welcome you!</p><?php
-		} elseif (isset($_COOKIE['type']) && $_COOKIE['type']== 2) {
-			?><p>As one of our Commitee members, you can oversee society activities!</p><?php
-		} else { ?><p>As an Admin you can oversee this website!</p><?php }
-		
-} else {
-	?>
-    <p>login to access member only properties!
-	<?php
-}		
-?>
-</div>
 <?php
 
 		if (isset($_COOKIE['type']) && $_COOKIE['type']== 1) {	
@@ -352,6 +341,7 @@ src="https://www.youtube.com/embed/nUZYpDFggCI">
 }		
 ?>
 
+</div>
 </div>
 </div>
 </body>

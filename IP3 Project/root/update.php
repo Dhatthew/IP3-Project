@@ -12,21 +12,34 @@
 
 <body>
 
-<ul class="topnav">
-  <li><img src="images/caleChargers.jpg" alt="chargers logo" style="width:75px;height:80px;"></li>
-  <li><a href="home.php">Home</a></li>
-  <li><a href="rules.php">Rules</a></li>
-  <li><a href="meetup.php">Meetups</a></li>
-  <li><a href="events.php">Events</a></li>
-  <li><a href="faq.php">FAQ</a></li>
-  <li><a href="contact.php">Contact Us</a></li>
-  <li><a href="login.html">Login</a></li>
-  <li><a href="registration.html">Register</a></li>
+<div class="back-image">
+<div id="container">
+<nav>
+<ul>
+		<li><img src="images/caleChargers.jpg" alt="chargers logo" style="width:75px;height:80px;"></li>
+		<li><a href="home.php">Home</a></li>
+		<li><a href="rules.php">Rules</a></li>
+		<li><a href="#">Events</a>
+            <ul>
+                <li><a href="competitions.php">Competitions</a></li>
+                <li><a href="meetups.php">Meetups</a></li>
+                
+            </ul>        
+            </li>
+		<li><a href="roster.php">Roster</a></li>
+		<li><a href="merch.php">Merch</a></li>
+		<li><a href="contact.php">Contact Us</a></li>
+		<li><a href="about.php">About</a></li>
+		<li class="right"><a  href="logout.html">Log In</a></li>
 </ul>
+</nav>
+</div>
 
-</br> </br> </br>
+<div class="pad1Other">
 
-<h1>Promotion Confirmation</h1>
+<h1 align="center">Promotion Confirmation</h1>
+
+<div align="center" class="contentOther">
 
 <?php
 
@@ -61,6 +74,11 @@ if($data)
 mysql_close($link);	
 
 ?>
+
+</div>
+</div>
+</br></br></br></br></br></br></br></br></br>
+</div>
 
 </body>
 
