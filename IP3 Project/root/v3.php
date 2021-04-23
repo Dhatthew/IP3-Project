@@ -209,33 +209,70 @@ body {
     <nav>
         <ul>
             <li><img src="images/caleChargers.jpg" alt="My Image" style="width:75px;height:80px;"></li>
-			<li><a class="active" href="home.php">Home</a></li>
-			<li><a href="rules.php">Rules</a></li>
-            <li><a href="events.php">Events</a></li>
-            <li><a href="roster.php">Roster</a></li>
-            <li><a href="contact.php">Contact Us</a></li>
-            <li><a href="about.php">About</a></li>
+			<li><a class="active" href="v3.html">Home</a></li>
+            <li><a href="#">Events ▼</a>
+            <ul>
+                <li><a href="#">Competitions</a></li>
+                <li><a href="#">Meetups</a></li>
+                <li><a href="#">Conventions</a></li>
+            </ul>        
+            </li>
+            <li><a href="rosterV3.html">Roster</a></li>
+ 
+ 
+            
+            <li><a href="contactV3.html">Contact</a></li>
+            <li><a href="aboutv3.html">About</a></li>
 			
+			<li class="right"><a href="#">Your Account ▼</a>
+			
+			<ul>
+                <!--<li><a href="login.html">Login</a></li>
+                <li><a href="registration.html">Register</a></li>
+				<li><a href="logout.php">Logout</a></li>-->
 				<?php
 	if(isset($_COOKIE['type'])){
 		?>
 		
-		<li class="right"><a href="logout.php">Logout</a></li>
+		<li><a href="logout.php">Logout</a></li>
 		
 		<?php
 } else {
 	?>
 	
-    <li class="right"><a href="login.html">Login</a></li>
-	<li class="right"><a href="registration.html">Register</a></li>
+    <li><a href="login.html">Login</a></li>
+	<li><a href="registration.html">Register</a></li>
 	<?php
 }		
-?>	
-    
+?>
+             
+			
+        </ul>
+		</li>
     </nav>
+ <!--
+ <?php
+	if(isset($_COOKIE['type'])){
+		?>
+		<ul>
+		<li><a href="logout.php">Logout</a></li>
+		</ul>
+		<?php
+} else {
+	?>
+	<ul>
+    <li><a href="login.html">Login</a></li>
+	<li><a href="registration.html">Register</a></li>
+	<?php
+}		
+?>
+-->
 </div>
 
+<!--</script>
+		
 
+</ul>-->
 
 <div class="back-image">
 
@@ -331,27 +368,6 @@ src="https://www.youtube.com/embed/nUZYpDFggCI">
 }		
 ?>
 </div>
-<?php
-
-		if (isset($_COOKIE['type']) && $_COOKIE['type']== 1) {	
-		?><p>As a member of our society we welcome you!</p><?php
-		} elseif (isset($_COOKIE['type']) && $_COOKIE['type']== 2) {
-			?><p>As one of our Commitee members, you can oversee society activities!</p><?php
-		} elseif (isset($_COOKIE['type']) && $_COOKIE['type']== 3) { 
-		?> <form action="promote.php" method="post">
-			<input hidden name="version" value=2>
-		<input type="submit" value="Click here to promote a Commitee member to an admin"></form>
-		</br>
-		<form action="promote.php" method="post">
-			<input hidden name="version" value=1>
-		<input type="submit" value="Click here to promote a regular member to a Commitee member"></form>		<?php
-		} else {
-	?>
-    <p>login to access member only properties!
-	<?php
-}		
-?>
-
 </div>
 </div>
 </body>

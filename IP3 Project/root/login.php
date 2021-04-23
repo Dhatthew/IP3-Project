@@ -12,7 +12,7 @@ alert("Incorrect Password!");
 </head>
 
 <?php
-
+header("Location: home.php");
 $servername="localhost"; 									
 $username="root";        									
 $password="usbw";            									

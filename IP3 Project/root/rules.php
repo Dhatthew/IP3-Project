@@ -7,37 +7,49 @@
 <title>Rules</title>
 
 
-<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" type="text/css" href="mystylev3.css">
+
 
 
 </head>
 
 <body>
 
-<ul class="topnav">
-		<li><img src="images/caleChargers.jpg" alt="chargers logo" style="width:55px;height:55px;"></li>
-		<li><a href="home.php">Home</a></li>
-		<li><a href="rules.php">Rules</a></li>
-		<li><a href="meetup.php">Meetups</a></li>
-		<li><a href="events.php">Events</a></li>
-		<li><a href="faq.php">FAQ</a></li>
-		<li><a href="contact.php">Contact Us</a></li>
-		
-<?php
+<div class="back-image">
+
+<div id="container">
+    <nav>
+        <ul>
+            <li><img src="images/caleChargers.jpg" alt="My Image" style="width:75px;height:80px;"></li>
+			<li><a href="home.php">Home</a></li>
+			<li><a class="active" href="rules.php">Rules</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="roster.php">Roster</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+            <li><a href="about.php">About</a></li>
+			
+				<?php
 	if(isset($_COOKIE['type'])){
 		?>
-		<li><a href="logout.php">Logout</a></li>
+		
+		<li class="right"><a href="logout.php">Logout</a></li>
+		
 		<?php
 } else {
 	?>
-    <li><a href="login.html">Login</a></li>
-	<li><a href="registration.html">Register</a></li>
+	
+    <li class="right"><a href="login.html">Login</a></li>
+	<li class="right"><a href="registration.html">Register</a></li>
 	<?php
 }		
-?>
-</ul>
+?>	
+    
+    </nav>
+</div>
 
-</br> </br> </br>
+<div class="pad1Other">
+<h1 style="text-align:center">Society Rules</h1>
+<div class="contentOther">
 
 <p> Should you wish to  join our society, as a hobby with friends or to respresent our society on a competitive level,
 you are expected to adhere to the following rules:</p>
@@ -58,6 +70,10 @@ part of the society. </div></br>
 <div class="right">There are some good-faith exceptions such as invites to relevant personal gatherings or relevant afterparties, game invites, GCU + NUEL/NSE related
 streams etc.</br>
 If you wish to promote something in the #promotions channel, please contact a Committee member.</div>
+
+</div>
+</div>
+</div>
 
 </body>
 

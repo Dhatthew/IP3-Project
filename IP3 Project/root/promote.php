@@ -13,7 +13,7 @@
 <body>
 
 <ul class="topnav">
-  <li><img src="images/caleChargers.jpg" alt="chargers logo" style="width:55px;height:55px;"></li>
+  <li><img src="images/caleChargers.jpg" alt="chargers logo" style="width:75px;height:80px;"></li>
   <li><a href="home.php">Home</a></li>
   <li><a href="rules.php">Rules</a></li>
   <li><a href="meetup.php">Meetups</a></li>
